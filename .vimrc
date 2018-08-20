@@ -98,5 +98,7 @@ let g:solarized_termtrans=1
 
 " my changes 
 colorscheme solarized
-set runtimepath=/root/.vim/plugins
+set runtimepath^=/root/.vim/plugins/
+execute pathogen#infect()
+
 
